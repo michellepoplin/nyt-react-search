@@ -1,7 +1,7 @@
 {
   "name": "react-google-books",
   "version": "1.0.0",
-  "description": "",
+  "description": "nyt-react-search",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -25,5 +25,16 @@
     "express-handlebars": "^3.0.2",
     "if-env": "^1.0.4",
     "mongoose": "^5.4.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michellepoplin/nyt-react-search.git"
+  },
+  "keywords": [
+    "author"
+  ],
+  "bugs": {
+    "url": "https://github.com/michellepoplin/nyt-react-search/issues"
+  },
+  "homepage": "https://github.com/michellepoplin/nyt-react-search#readme"
 }
